@@ -1,0 +1,38 @@
+#grid
+{
+    width:950px;
+    position:absolute;
+    top:0;
+    left:50%;
+    margin-left:-475px;
+}
+#grid div.vert
+{
+    width:9px;
+    border:dotted darkturquoise;
+    border-width:0 1px;
+    margin-right:29px;
+    content:' ';
+}
+#grid div.first-line
+{
+    margin-left:29px;
+}
+#grid div.horiz
+{
+    height:1.5em;
+    border-bottom:1px dotted darkturquoise;
+    margin-bottom:-1px;
+}
+#grid #grid-horiz.first-line
+{
+    margin-left:0;
+}
+#grid.grid-1 div.horiz
+{
+    border-color:transparent;
+}
+#grid.grid-2 div.vert
+{
+    border-color:transparent;
+}

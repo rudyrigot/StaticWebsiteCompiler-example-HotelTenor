@@ -1,0 +1,21 @@
+a {
+	text-decoration:none;
+}
+
+#languages a {
+	display: block;
+	float: left;
+	height: 18px;
+	width: 29px;
+	margin-right: 10px;
+	background-color: #68a0b9;
+	color: white;
+	text-align: center;
+}
+#languages a.active {
+	height: 16px;
+	width: 27px;
+	color: black;
+	background-color: #e4e4e4;
+	border: 1px solid #ababaa;
+}

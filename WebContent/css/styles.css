@@ -1,0 +1,446 @@
+body {
+	background-color: #827f6c;
+	background-image: url('../img/bggradient.png');
+	background-repeat: repeat-x
+}
+
+.container {
+	height: 760px;
+}
+
+div#left_bg {
+	position:absolute;
+	background-image:url('../img/bgleft.png');
+	margin-top:128px;
+	width:158px;
+	height:401px;
+	margin-left:-158px;
+}
+div#right_bg {
+	position:absolute;
+	background-image:url('../img/bgright.png');
+	margin-top:133px;
+	width:125px;
+	height:377px;
+	margin-left:950px;
+}
+
+#left_col {
+	background-color: #fcfcfa;
+	height: 100%;;
+	float: left;
+	width: 210px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+
+h1 {
+	background-image: url('../img/stars.png');
+	background-position: 72px bottom;
+	background-repeat: no-repeat;
+	height: 43px;
+	margin-bottom: 21px;
+}
+#navigation {
+	list-style-type:none;
+	padding-left: 0;
+	padding-right: 30px;
+	margin-bottom: 11px;
+}
+#navigation li {
+	border-bottom: 1px solid #d7d7d5;
+	margin-top: -1px;
+	height: 35px;
+}
+
+#formulaire {
+	margin-top: 32px;
+	width: 183px;
+	height: 218px;
+	margin-left: -10px;
+}
+#formulaire.bordered {
+	padding: 8px;
+	background-image: url('../img/stripedborder.png');
+}
+
+form#reservation {
+	width: 171px;
+	height: 216px;
+	padding-left: 10px;
+	border: 1px solid #dadad9;
+	background-color: white;
+}
+form#reservation .intitule {
+	height: 43px;
+}
+form#reservation .date {
+	height: 22px;
+	margin-bottom: 12px;
+}
+form#reservation .first {
+	margin-bottom: 0;
+}
+form#reservation .date label {
+	width: 50px;
+	display: block;
+	float: left;
+}
+form#reservation .date input {
+	width: 85px;
+	height: 20px;
+	padding: 1px 0;
+	text-align: center;
+	background-image: url('../img/inputtextbackground.png');
+	border: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+form#reservation .date a {
+	padding: 1px 0 0 6px;
+	display: block;
+	float: left;
+}
+form#reservation .selectlabels {
+	height: 22px;
+	margin-top: 17px;
+}
+form#reservation .selectlabels div {
+	float: left;
+	overflow: hidden;
+}
+form#reservation .selectlabels div#nightslabel {
+	width: 55px;
+}
+form#reservation .selectlabels div#adultslabel {
+	width: 55px;
+}
+form#reservation .selectlabels div#childrenlabel {
+	width: 60px;
+}
+form#reservation .selects {
+	margin-top: 5px;
+	height: 22px;
+}
+form#reservation .selects select {
+	float: left;
+	width: 42px;
+	height: 22px;
+	background-image: url('../img/selectbackground.png');
+	margin: 0 15px 0 0;
+	border: 1px solid #c6c6c6;
+	padding: 0;
+}
+form#reservation .selects .last {
+	margin: 0;
+	text-align: center;
+}
+form#reservation .submit {
+	margin-top: 15px;
+}
+form#reservation .submit input {
+	padding: 0;
+	margin-left: 25px;
+	width: 111px;
+	height: 24px;
+	text-align: center;
+	background-color: #5ea4c4;
+	color: white;
+	border: 0;
+	background-image: url('../img/buttonbackground.png');
+}
+
+#services_strip_title {
+	margin-top: 36px;
+	height: 62px;
+	width: 270px;
+	background-image: url('../img/services_strip_title.png')
+}
+#services_strip_title span {
+	color: white;
+}
+
+#content {
+	height: 100%;
+	width: 710px;
+	background-color: #fcfcfa;
+	float: left;
+}
+#content #carrouselhome img {
+	width: 710px;
+	height: 460px;
+}
+#content #carrouselhome {
+	width: 710px;
+	height: 460px;
+	overflow: hidden;
+	background-color: #5e4d43;
+}
+#content #carrouseltext {
+	width: 600px;
+	height: 124px;
+	position: absolute;
+	background-image: url('../img/home/cadretexte.png');
+	background-repeat: repeat-x;
+	top: 336px;
+	color: white;
+	z-index: 4;
+}
+#content #carrouseltext #carrouseltexttitle {
+	padding-left: 50px;
+	margin-top: -4px;
+	padding-top: 20px;
+	background-image: url('../img/home/guillemet.png');
+	background-repeat: no-repeat;
+	background-position: 17px top;
+	height: 40px;
+	width: 550px;
+}
+#content #carrouseltext #carrouseltexttitle h2 {
+	color: white;
+	margin:0;
+	padding:0;
+	width: 470px;
+}
+#content #carrouseltext #carrouseltexttitle a#prevhome,
+#content #carrouseltext #carrouseltexttitle a#nexthome {
+	float: right;
+	margin-right: 13px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+#content #carrouseltext #carrouseltexttitle a#prevhome {
+	background-image: url('../img/home/leftarrow.png');
+}
+#content #carrouseltext #carrouseltexttitle a#nexthome {
+	background-image: url('../img/home/rightarrow.png');
+}
+#content #carrouseltext #carrouseltextcontent {
+	padding: 0 90px 0 40px;
+	height: 68px;
+	width: 470px;
+	background-image: url('../img/home/guillemetfermante.png');
+	background-repeat: no-repeat;
+	background-position: 525px 29px;
+}
+#content #blocsliens {
+	height: 194px;
+	margin-bottom: 70px;
+}
+#content #blocsliens .blocleft {
+	height: 194px;
+	padding-left: 40px;
+	width: 290px;
+	float: left;
+}
+#content #blocsliens .blocright {
+	float: left;
+	width: 300px;
+	height: 194px;
+	padding: 0 40px 0 40px;
+}
+#content #blocsliens h3 {
+	padding: 30px 0 0 50px;
+	margin: 0;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+#content #blocsliens p {
+	padding: 0;
+	margin: 0;
+}
+#content #blocsliens ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+#content #blocsliens ul li {
+	margin:0;
+	padding: 0 0 0 25px;
+	background-image: url('../img/home/list-arrow.png');
+	background-repeat: no-repeat;
+	background-position: left 3px;
+}
+#content #blocsliens .blocleft h3 {
+	background-position: left 21px;
+	background-image: url('../img/home/camera.png');
+}
+#content #blocsliens .blocright h3 {
+	background-position: left 19px;
+	background-image: url('../img/home/souris.png');
+}
+#content #footer {
+	text-align: center;
+}
+#content #footer a:hover {
+	text-decoration: underline;
+}
+#ruban {
+	height: 62px;
+	width: 730px;
+	position: absolute;
+	background-image: url('../img/ruban.png');
+	margin: 657px 0 0 240px;
+}
+#ruban a#prevruban {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-image: url('../img/ribbonleft.png');
+	cursor: pointer;
+	float: left;
+	margin: 12px 0 0 30px;
+}
+#ruban a#nextruban {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-image: url('../img/ribbonright.png');
+	cursor: pointer;
+	float: left;
+	margin-top: 12px;
+	margin-left: 30px;
+}
+#ruban #scrollableruban {
+	float: left;
+	margin-top: 11px;
+	width: 567px;
+	height: 28px;
+}
+#ruban #scrollableruban .scrollableruban {
+	width: 567px;
+	height: 28px;
+}
+#ruban #scrollableruban a {
+	margin-left: 22px;
+}
+#ruban #scrollableruban a.plus3 {
+	margin-left: 19px;
+}
+.tooltip {
+	width: 169px;
+	height: 82px;
+	background-image: url('../img/ribbon/black_arrow');
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+#content .tophalf {
+	width: 710px;
+	height: 380px;
+}
+#content .bottomhalf {
+	width: 710px;
+	height: 274px;
+	margin-bottom: 70px;
+	background-color: #f5f4f3;
+}
+
+#content .tophalf .righttext {
+	width: 330px;
+	height: 380px;
+	background-color: #5e4d43;
+	float: right;
+	color: #c9c5aa;
+}
+#content .tophalf .righttext h2 {
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	height: 70px;
+	background-image: url('../img/chambres/titreseparateur.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#content .tophalf .righttext p {
+	margin: 0 30px 20px 30px;
+}
+#content .tophalf .righttext p.last {
+	margin-bottom: 0;
+}
+#content .bottomhalf .tarifs {
+	width: 710px;
+	height: 100px;
+}
+#content .bottomhalf .tarifs h3 {
+	margin-top: 25px;
+	height: 75px;
+	margin-left: 20px;
+	width: 120px;
+	text-align: center;
+	background-image: url('../img/chambres/tarifseparateur.png');
+	background-position: center 32px;
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	float: left;
+}
+#content .bottomhalf .tarifs ul {
+	width: 375px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+}
+#content .bottomhalf .tarifs ul li {
+	height: 25px;
+	background-image: url('../img/chambres/pointilles.png');
+	background-repeat: repeat-x;
+	background-position: left 10px;
+}
+#content .bottomhalf .tarifs ul li.first {
+	margin-top: 25px;
+}
+#content .bottomhalf .tarifs ul li .tarif {
+	float: right;
+	padding-right: 30px;
+	background-color: #f5f4f3;
+	width: 95px;
+	text-align: right;
+}
+#content .bottomhalf .tarifs ul li .intitule {
+	background-color: #f5f4f3;
+}
+#content .bottomhalf .tarifs img {
+	margin: 32px 0 0;
+	float: left;
+}
+#content .carrouselchambres {
+	height: 174px;
+	width: 710px;
+}
+#content .carrouselchambres .prevchambres,
+#content .carrouselchambres .nextchambres {
+	width: 25px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	z-index: 4;
+}
+#content .carrouselchambres .prevchambres {
+	margin: 57px 0 0 16px;
+	background-image: url('../img/chambres/carrouselleft.png');
+}
+#content .carrouselchambres .nextchambres {
+	margin: 57px 0 0 660px;
+	background-image: url('../img/chambres/carrouselright.png');
+}
+#content .carrouselchambres #scrollablechambres {
+	width: 710px;
+	height:174px;
+}
+#content .carrouselchambres #scrollablechambres .scrollablechambres {
+	width: 710px;
+	height:174px;
+}
+#content .carrouselchambres #scrollablechambres .scrollablechambres .imageframe {
+	float: left;
+	width: 198px;
+	height: 130px;
+	background-image: url('../img/chambres/imageframe.png');
+	padding: 7px 0 0 10px;
+	margin-left: 20px;
+}

@@ -1,5 +1,5 @@
 body {
-	background-color: #827f6c;
+	background-color: #b1a684;
 	background-image: url('../img/bggradient.png');
 	background-repeat: repeat-x
 }
@@ -33,13 +33,11 @@ div#right_bg {
 	padding-left: 30px;
 	overflow: hidden;
 }
-
-h1 {
-	background-image: url('../img/stars.png');
-	background-position: 72px bottom;
-	background-repeat: no-repeat;
-	height: 43px;
-	margin-bottom: 21px;
+h1#logo {
+	height: 190px;
+	width: 185px;
+	margin: 20px 0 0 25px;
+	padding: 0;
 }
 #navigation {
 	list-style-type:none;
@@ -52,7 +50,34 @@ h1 {
 	margin-top: -1px;
 	height: 35px;
 }
-
+a {
+	text-decoration:none;
+}
+#languages a#homeicon {
+	height: 18px;
+	width: 21px;
+	padding-right: 12px;
+	margin-right: 14px;
+	border-right: 1px solid #bababa;
+	background-color: #fcfcfa;
+}
+#languages a {
+	display: block;
+	float: left;
+	height: 18px;
+	width: 29px;
+	margin-right: 10px;
+	background-color: #68a0b9;
+	color: white;
+	text-align: center;
+}
+#languages a.active {
+	height: 16px;
+	width: 27px;
+	color: black;
+	background-color: #e4e4e4;
+	border: 1px solid #ababaa;
+}
 #formulaire {
 	margin-top: 32px;
 	width: 183px;
@@ -274,6 +299,9 @@ form#reservation .submit input {
 #content #footer {
 	text-align: center;
 }
+#content #footer a {
+	cursor: pointer;
+}
 #content #footer a:hover {
 	text-decoration: underline;
 }
@@ -326,6 +354,7 @@ form#reservation .submit input {
 	color: white;
 	padding: 20px;
 	text-align: center;
+	z-index: 5;
 }
 
 #content .tophalf {
@@ -334,8 +363,8 @@ form#reservation .submit input {
 }
 #content .bottomhalf {
 	width: 710px;
-	height: 274px;
-	margin-bottom: 70px;
+	height: 304px;
+	margin-bottom: 40px;
 	background-color: #f5f4f3;
 }
 
@@ -443,4 +472,112 @@ form#reservation .submit input {
 	background-image: url('../img/chambres/imageframe.png');
 	padding: 7px 0 0 10px;
 	margin-left: 20px;
+}
+
+#content .tophalf #map {
+	height: 380px;
+	width: 380px;
+	float: left;
+}
+#content .pratique .righttext {
+	background-color: #f6f5f4;
+}
+#content .pratique .righttext h2 {
+	background-image: url('../img/pratique/titreseparateur.png');
+	color: #4b4a4a;
+}
+#content .pratique .righttext ul {
+	margin: 0 0 0 40px;
+	padding: 0;
+	list-style-type:none;
+	width: 250px;
+}
+#content .pratique .righttext ul li {
+	margin: 0;
+	padding: 9px 0 0 35px;
+	height: 27px;
+	background-color: #ecebea;
+	background-position: 12px center;
+	background-image: url('../img/pratique/darklistarrow.png');
+	background-repeat: no-repeat;
+}
+#content .pratique .righttext ul li.even {
+	background-color: #f5f5f4;
+	background-image: url('../img/pratique/lightlistarrow.png');
+}
+#content .pratique .righttext ul li a {
+	color: #3a93bb;
+	cursor: pointer;
+}
+#content .pratique .righttext ul li a:hover {
+	color: #3a93bb;
+	text-decoration: underline;
+}
+#content .bottomhalf img#contactimage {
+	width: 330px;
+	float: right;
+}
+#content .bottomhalf #fichecontact {
+	padding: 22px 27px 0;
+	width: 326px;
+	height: 282px;
+	background-color: #655a70;
+	color: white;
+}
+#content .bottomhalf #fichecontact h3 {
+	color: white;
+	float: left;
+	height: 30px;
+	margin: 0 0 20px 0;
+	padding: 0 0 7px 0;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url('../img/pratique/contactseparateur.png');
+	display: inline;
+}
+#content .bottomhalf p#accroche {
+	clear: left;
+	margin: 0 0 20px 0;
+	line-height: 1.8;
+	color: #fff7c0;
+}
+#content .bottomhalf ul#coordonnees {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#content .bottomhalf ul#coordonnees li {
+	padding: 0;
+	margin: 0 0 5px 0;
+	line-height: 1.2em;
+}
+#footer #mentionslegales {
+	display: none;
+}
+#simplemodal-container {
+	border: 5px solid #6d6456;
+	background-color: #fcfcfa;
+	padding: 20px;
+	width: 660px;
+	
+}
+#simplemodal-container a.modalCloseImg {
+	background:url(../img/x.png) no-repeat;
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	position:absolute;
+	top:-15px;
+	right:-18px;
+	cursor:pointer;
+}
+.ie6 #simplemodal-container a.modalCloseImg {
+	background:none;
+	right:-14px;
+	width:22px;
+	height:26px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='img/x.png', sizingMethod='scale'
+	);
 }

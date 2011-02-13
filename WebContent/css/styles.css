@@ -40,11 +40,12 @@ div#right_bg {
 
 #left_col {
 	background-color: #fcfcfa;
-	height: 100%;;
+	height: 760px;
 	float: left;
 	width: 210px;
 	padding-left: 30px;
 	overflow: hidden;
+	display: inline;
 }
 h1#logo {
 	height: 190px;
@@ -83,6 +84,7 @@ a {
 	background-color: #68a0b9;
 	color: white;
 	text-align: center;
+	display: inline;
 }
 #languages a.active {
 	height: 16px;
@@ -132,12 +134,12 @@ form#reservation .date input {
 	background-image: url('../img/inputtextbackground.png');
 	border: 0;
 	margin: 0;
-	display: block;
+	display: inline;
 	float: left;
 }
 form#reservation .date a {
 	padding: 1px 0 0 6px;
-	display: block;
+	display: inline;
 	float: left;
 }
 form#reservation .selectlabels {
@@ -169,6 +171,7 @@ form#reservation .selects select {
 	margin: 0 15px 0 0;
 	border: 1px solid #c6c6c6;
 	padding: 0;
+	display: inline;
 }
 form#reservation .selects .last {
 	margin: 0;
@@ -201,7 +204,7 @@ form#reservation .submit input {
 }
 
 #content {
-	height: 100%;
+	height: 760px;
 	width: 710px;
 	background-color: #fcfcfa;
 	float: left;
@@ -226,6 +229,10 @@ form#reservation .submit input {
 	color: white;
 	z-index: 4;
 }
+.ie6 #content #carrouseltext {
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/hoteltenor/img/home/cadretexteIE.png',sizingMethod='crop');
+}
 #content #carrouseltext #carrouseltexttitle {
 	padding-left: 50px;
 	margin-top: -4px;
@@ -236,11 +243,20 @@ form#reservation .submit input {
 	height: 40px;
 	width: 550px;
 }
+.ie6 #content #carrouseltext #carrouseltexttitle {
+	margin-top: 6px;
+	padding-top: 10px;
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/hoteltenor/img/home/guillemetIE.png',sizingMethod='crop');
+}
 #content #carrouseltext #carrouseltexttitle h2 {
 	color: white;
 	margin:0;
 	padding:0;
 	width: 470px;
+}
+.ie6 #content #carrouseltext #carrouseltexttitle h2 {
+	width: 460px;
 }
 #content #carrouseltext #carrouseltexttitle a#prevhome,
 #content #carrouseltext #carrouseltexttitle a#nexthome {
@@ -249,12 +265,21 @@ form#reservation .submit input {
 	width: 26px;
 	height: 25px;
 	cursor: pointer;
+	display: inline;
 }
 #content #carrouseltext #carrouseltexttitle a#prevhome {
 	background-image: url('../img/home/leftarrow.png');
 }
+.ie6 #content #carrouseltext #carrouseltexttitle a#prevhome {
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/hoteltenor/img/home/leftarrow.png',sizingMethod='crop');
+}
 #content #carrouseltext #carrouseltexttitle a#nexthome {
 	background-image: url('../img/home/rightarrow.png');
+}
+.ie6 #content #carrouseltext #carrouseltexttitle a#nexthome {
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/hoteltenor/img/home/rightarrow.png',sizingMethod='crop');
 }
 #content #carrouseltext #carrouseltextcontent {
 	padding: 0 90px 0 40px;
@@ -263,6 +288,9 @@ form#reservation .submit input {
 	background-image: url('../img/home/guillemetfermante.png');
 	background-repeat: no-repeat;
 	background-position: 525px 29px;
+}
+.ie6 #content #carrouseltext #carrouseltextcontent {
+	background: none;
 }
 #content #blocsliens {
 	height: 194px;
@@ -273,12 +301,14 @@ form#reservation .submit input {
 	padding-left: 40px;
 	width: 290px;
 	float: left;
+	display: inline;
 }
 #content #blocsliens .blocright {
 	float: left;
 	width: 300px;
 	height: 194px;
 	padding: 0 40px 0 40px;
+	display: inline;
 }
 #content #blocsliens h3 {
 	padding: 30px 0 0 50px;
@@ -323,11 +353,21 @@ form#reservation .submit input {
 	background-image: url('../img/ruban.png');
 	margin: 657px 0 0 240px;
 }
+.ie6 #ruban {
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/hoteltenor/img/ruban.png',sizingMethod='crop');
+}
 .ie #ruban {
 	margin-left: -710px;
 }
+.ie6 #ruban {
+	margin: 0;
+	position: relative;
+	margin-top: -103px;
+	margin-left: 240px;
+}
 #ruban a#prevruban {
-	display: block;
+	display: inline;
 	width: 25px;
 	height: 25px;
 	background-image: url('../img/ribbonleft.png');
@@ -336,7 +376,7 @@ form#reservation .submit input {
 	margin: 12px 0 0 30px;
 }
 #ruban a#nextruban {
-	display: block;
+	display: inline;
 	width: 25px;
 	height: 25px;
 	background-image: url('../img/ribbonright.png');
@@ -351,6 +391,7 @@ form#reservation .submit input {
 	width: 567px;
 	height: 28px;
 	background-color: #6b6254;
+	display: inline
 }
 #ruban #scrollableruban .scrollableruban {
 	width: 567px;
@@ -376,6 +417,7 @@ form#reservation .submit input {
 #content .tophalf {
 	width: 710px;
 	height: 380px;
+	background-color: #5e4d43;
 }
 #content .bottomhalf {
 	width: 710px;
@@ -387,9 +429,11 @@ form#reservation .submit input {
 #content .tophalf .righttext {
 	width: 330px;
 	height: 380px;
-	background-color: #5e4d43;
 	float: right;
 	color: #c9c5aa;
+}
+.ie6 #content .tophalf .righttext {
+	width:327px;
 }
 #content .tophalf .righttext h2 {
 	color: white;
@@ -421,6 +465,7 @@ form#reservation .submit input {
 	background-repeat: no-repeat;
 	text-transform: uppercase;
 	float: left;
+	display: inline;
 }
 #content .bottomhalf .tarifs ul {
 	width: 375px;
@@ -445,6 +490,7 @@ form#reservation .submit input {
 	background-color: #f5f4f3;
 	width: 95px;
 	text-align: right;
+	display: inline;
 }
 #content .bottomhalf .tarifs ul li .intitule {
 	background-color: #f5f4f3;
@@ -452,6 +498,7 @@ form#reservation .submit input {
 #content .bottomhalf .tarifs img {
 	margin: 32px 0 0;
 	float: left;
+	display: inline;
 }
 #content .carrouselchambres {
 	height: 174px;
@@ -488,6 +535,7 @@ form#reservation .submit input {
 	background-image: url('../img/chambres/imageframe.png');
 	padding: 7px 0 0 10px;
 	margin-left: 20px;
+	display: inline;
 }
 
 #content .tophalf #map {
@@ -495,7 +543,7 @@ form#reservation .submit input {
 	width: 380px;
 	float: left;
 }
-#content .pratique .righttext {
+#content .pratique {
 	background-color: #f6f5f4;
 }
 #content .pratique .righttext h2 {

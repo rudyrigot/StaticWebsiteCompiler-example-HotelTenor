@@ -19,19 +19,19 @@
 					<h2>{Infos pratiques//Directions &amp; info}</h2>
 					<ul>
 						<li>
-							<a id="lyon">{Itin&eacute;raire depuis Lyon//The way from Lyon}</a>
+							<a id="lyon" onclick="_gaq.push(['_trackEvent', 'Google Map', 'Lyon']);">{Itin&eacute;raire depuis Lyon//The way from Lyon}</a>
 						</li>
 						<li class="even">
-							<a id="clermont">{Itin&eacute;raire depuis Clermont-Ferrand//The way from Clermont-Ferrand}</a>
+							<a id="clermont" onclick="_gaq.push(['_trackEvent', 'Google Map', 'Clermont']);">{Itin&eacute;raire depuis Clermont-Ferrand//The way from Clermont-Ferrand}</a>
 						</li>
 						<li>
-							<a id="station">{&Agrave; pied depuis la gare//Walking from the train station}</a>
+							<a id="station" onclick="_gaq.push(['_trackEvent', 'Google Map', 'Gare']);">{&Agrave; pied depuis la gare//Walking from the train station}</a>
 						</li>
 						<li class="even">
-							<a href="#">{Les cin&eacute;mas dans les environs//Movie theaters around the hotel}</a>
+							<a href="#" onclick="_gaq.push(['_trackEvent', 'Google Map', 'Cinemas']);">{Les cin&eacute;mas dans les environs//Movie theaters around the hotel}</a>
 						</li>
 						<li>
-							<a id="here">{Itin&eacute;raire depuis ma position actuelle//The way from where i am}</a>
+							<a id="here" onclick="_gaq.push(['_trackEvent', 'Google Map', 'Localisation']);">{Itin&eacute;raire depuis ma position actuelle//The way from where i am}</a>
 						</li>
 					</ul>
 				</div>
@@ -50,8 +50,8 @@
 }
 					</p>
 					<ul id="coordonnees">
-						<li><strong>{T&eacute;l&eacute;phone&nbsp;//Telephone}:</strong> 04 77 33 79 88</li>
-						<li><strong>E-mail{&nbsp;//}:</strong> contact@hoteltenor.com</li>
+						<li><strong>{T&eacute;l&eacute;phone&nbsp;//Telephone}:</strong> <a href="tel:+33477337988" onclick="_gaq.push(['_trackEvent', 'Contact', 'Telephone']);">04 77 33 79 88</a></li>
+						<li><strong>E-mail{&nbsp;//}:</strong> <a href="mailto:contact@hoteltenor.com" onclick="_gaq.push(['_trackEvent', 'Contact', 'Mail']);">contact@hoteltenor.com</a></li>
 						<li><strong>{Adresse&nbsp;://Address:}</strong> 12 rue Blanqui,<br/>42000 St-Etienne</li>
 					</ul>
 				</div>

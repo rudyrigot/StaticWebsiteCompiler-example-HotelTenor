@@ -16,8 +16,8 @@
         	</div>
         	<div id="carrouseltext">
         		<div id="carrouseltexttitle">
-        			<a id="nexthome"></a>
-        			<a id="prevhome"></a>
+        			<a id="nexthome" onclick="_gaq.push(['_trackEvent', 'Carrousel home', 'Next']);"></a>
+        			<a id="prevhome" onclick="_gaq.push(['_trackEvent', 'Carrousel home', 'Prev']);"></a>
         			<h2 class="texteimg1 texteimg">{Un h&ocirc;tel en plein coeur du centre-ville//A hotel in the heart of the city}</h2>
         			<h2 class="texteimg2 texteimg" style="display:none">{Un petit-d&eacute;jeuner en &eacute;t&eacute;//Breakfast in the summertime}</h2>
         		</div>
@@ -49,8 +49,8 @@
 }
         			</p>
         			<ul>
-        				<li><a href="#">{Visite de la chambre//Visit the bedroom}</a></li>
-        				<li><a href="#">{Visite de la salle petit-d&eacute;jeuner//Visit the breakfast room}</a></li>
+        				<li><a href="#" onclick="_gaq.push(['_trackEvent', 'Visite virtuelle', 'Chambre']);">{Visite de la chambre//Visit the bedroom}</a></li>
+        				<li><a href="#" onclick="_gaq.push(['_trackEvent', 'Visite virtuelle', 'PDJ']);">{Visite de la salle petit-d&eacute;jeuner//Visit the breakfast room}</a></li>
         			</ul>
         		</div>
         	</div>

@@ -132,3 +132,5 @@ $('#lyon').click(function(){itineraire('Lyon', google.maps.DirectionsTravelMode.
 $('#clermont').click(function(){itineraire('Clermont-Ferrand', google.maps.DirectionsTravelMode.DRIVING)});
 $('#here').click(function(){itineraireFromHere();});
 $('#mentions').click(function(){$('#mentionslegales').modal({overlayClose:true});});
+
+$('.scrollableruban a').mouseover(function(){ onclick="_gaq.push(['_trackEvent', 'Ruban', 'Une icone']);"});

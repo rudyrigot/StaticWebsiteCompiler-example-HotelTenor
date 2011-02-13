@@ -1,9 +1,16 @@
+a, a:hover {
+	color: #1791bc;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
 body {
 	background-color: #b1a684;
 	background-image: url('../img/bggradient.png');
-	background-repeat: repeat-x
+	background-repeat: repeat-x;
+	color: #595a5b;
 }
-
 .container {
 	height: 760px;
 }
@@ -12,17 +19,23 @@ div#left_bg {
 	position:absolute;
 	background-image:url('../img/bgleft.png');
 	margin-top:128px;
-	width:158px;
-	height:401px;
-	margin-left:-158px;
+	margin-left:-186px;
+	width:186px;
+	height:404px;
+}
+.ie div#left_bg {
+	margin-left:-1136px
 }
 div#right_bg {
 	position:absolute;
 	background-image:url('../img/bgright.png');
-	margin-top:133px;
-	width:125px;
-	height:377px;
+	width:183px;
+	height:404px;
 	margin-left:950px;
+	margin-top:133px;
+}
+.ie div#right_bg {
+	margin-left:0;
 }
 
 #left_col {
@@ -178,8 +191,9 @@ form#reservation .submit input {
 
 #services_strip_title {
 	margin-top: 36px;
+	margin-left: -30px;
 	height: 62px;
-	width: 270px;
+	width: 240px;
 	background-image: url('../img/services_strip_title.png')
 }
 #services_strip_title span {
@@ -232,7 +246,7 @@ form#reservation .submit input {
 #content #carrouseltext #carrouseltexttitle a#nexthome {
 	float: right;
 	margin-right: 13px;
-	width: 25px;
+	width: 26px;
 	height: 25px;
 	cursor: pointer;
 }
@@ -302,15 +316,15 @@ form#reservation .submit input {
 #content #footer a {
 	cursor: pointer;
 }
-#content #footer a:hover {
-	text-decoration: underline;
-}
 #ruban {
-	height: 62px;
+	height: 64px;
 	width: 730px;
 	position: absolute;
 	background-image: url('../img/ruban.png');
 	margin: 657px 0 0 240px;
+}
+.ie #ruban {
+	margin-left: -710px;
 }
 #ruban a#prevruban {
 	display: block;
@@ -336,23 +350,25 @@ form#reservation .submit input {
 	margin-top: 11px;
 	width: 567px;
 	height: 28px;
+	background-color: #6b6254;
 }
 #ruban #scrollableruban .scrollableruban {
 	width: 567px;
 	height: 28px;
+	background-color: #6b6254;
 }
-#ruban #scrollableruban a {
+#ruban #scrollableruban a img {
 	margin-left: 22px;
 }
-#ruban #scrollableruban a.plus3 {
+#ruban #scrollableruban a.plus3 img {
 	margin-left: 19px;
 }
 .tooltip {
-	width: 169px;
-	height: 82px;
-	background-image: url('../img/ribbon/black_arrow');
-	color: white;
-	padding: 20px;
+	width: 133px;
+	height: 89px;
+	background-image: url('../img/tooltip.png');
+	background-repeat: no-repeat;
+	padding: 10px;
 	text-align: center;
 	z-index: 5;
 }
@@ -507,11 +523,9 @@ form#reservation .submit input {
 }
 #content .pratique .righttext ul li a {
 	color: #3a93bb;
-	cursor: pointer;
 }
 #content .pratique .righttext ul li a:hover {
 	color: #3a93bb;
-	text-decoration: underline;
 }
 #content .bottomhalf img#contactimage {
 	width: 330px;

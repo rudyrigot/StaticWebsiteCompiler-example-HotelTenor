@@ -466,6 +466,7 @@ form#reservation .submit input {
 	text-transform: uppercase;
 	float: left;
 	display: inline;
+	margin-bottom: 0;
 }
 #content .bottomhalf .tarifs ul {
 	width: 375px;

@@ -1,0 +1,91 @@
+body {
+	font-family: 'Droid Sans', arial, serif;
+}
+.tophalf h2 {
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	text-transform: uppercase;
+}
+#navigation li a {
+	color: #4f8da9;
+	font-size: 14px;
+}
+form#reservation .intitule {
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	color: #494a4b;
+}
+form#reservation .date label {
+	font-weight: normal;
+	color: #7c7b79;
+}
+form#reservation .date input {
+	font-family: 'Droid Sans', arial, serif;
+	color: #8c8f90;
+	font-size: 11px;
+}
+form#reservation .selectlabels div {
+	color: #7c7b79;
+	font-size: 11px;
+}
+form#reservation .selects select {
+	color: #636363;
+}
+#services_strip_title span {
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	font-size: 18px;
+}
+#content #carrouseltext #carrouseltextcontent {
+	font-size: 13px;
+}
+#content #blocsliens h3 {
+	color: #595A5B;
+	text-transform: uppercase;
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	font-size: 14px;
+}
+#content #blocsliens p,
+#content #blocsliens ul li {
+	font-size: 13px;
+}
+#content #footer {
+	font-size: 11px;
+}
+#content .tophalf .righttext h2 {
+	font-size: 20px;
+}
+#content .tophalf .righttext {
+	font-size: 13px;
+	line-height: 1.4em;
+}
+#content .tophalf .righttext a,
+#content .tophalf .righttext a:hover {
+	color: #75b8d7;
+}
+#content .bottomhalf .tarifs h3 {
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	color: #494a4b;
+	font-size: 16px;
+}
+#content .bottomhalf .tarifs ul li {
+	color: #494a4b;
+	font-size: 13px;
+}
+#content .bottomhalf .tarifs ul li .intitule {
+	font-weight: bold;
+}
+#content .pratique .righttext ul li a {
+	font-weight: bold;
+}
+#content .bottomhalf #fichecontact h3 {
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0 black;
+}
+#content .bottomhalf #fichecontact #accroche {
+	font-size: 14px;
+}
+#content .bottomhalf #fichecontact #coordonnees {
+	font-size: 16px;
+}
+#content .bottomhalf #fichecontact #coordonnees a {
+	color: white;
+}

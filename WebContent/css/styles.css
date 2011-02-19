@@ -655,3 +655,6 @@ form#reservation .submit input {
 	background-image: url('../img/ombrecentral.png');
 	z-index: 1;
 }
+.ie6 #ombrecentrale {
+	display: none;
+}

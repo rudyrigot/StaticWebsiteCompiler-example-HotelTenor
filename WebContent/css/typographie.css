@@ -89,3 +89,8 @@ form#reservation .selects select {
 #content .bottomhalf #fichecontact #coordonnees a {
 	color: white;
 }
+#simplemodal-container h2 {
+	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
+	text-transform: uppercase;
+	color: #595A5B;
+}

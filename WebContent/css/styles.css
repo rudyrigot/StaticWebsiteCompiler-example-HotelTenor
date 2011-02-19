@@ -62,7 +62,8 @@ h1#logo {
 #navigation li {
 	border-bottom: 1px solid #d7d7d5;
 	margin-top: -1px;
-	height: 35px;
+	height: 28px;
+	padding-top: 7px;
 }
 a {
 	text-decoration:none;

@@ -114,13 +114,12 @@ function itineraireFromHere() {
 		if (errorFlag == true) {
 			alert("Le service de géolocalisation a échoué.");
 		} else {
-			alert("Votre navigateur ne supporte pas la géolocalisation.");
+			alert("Votre navigateur ne supporte pas la géolocalisation.\nN'hésitez pas à réessayer depuis votre smartphone, ou depuis un navigateur plus moderne.");
 		}
 	}
 }
 
 function itineraire(origine, voyageMode) {
-		alert('Nouvelle map');
 		directionsDisplay = new google.maps.DirectionsRenderer();
 		var place = new google.maps.LatLng(45.439869, 4.389455);
 		var optionsCarte = {

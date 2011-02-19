@@ -140,6 +140,10 @@ form#reservation .date input {
 	display: inline;
 	float: left;
 }
+.ie form#reservation .date input {
+	padding-top: 5px !important;
+	height: 16px;
+}
 form#reservation .date a {
 	padding: 1px 0 0 6px;
 	display: inline;

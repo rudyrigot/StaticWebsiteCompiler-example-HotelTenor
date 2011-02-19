@@ -24,13 +24,13 @@ if ($('#scrollableruban').length) {
 }
 
 
-/* $('#scrollablechambres').cycle({
+$('#scrollablechambres').cycle({
 	fx: 'scrollLeft',
 	pause: 1,
-	prev: '#prevchambres',
-	next: '#nextchambres',
-	timeout: 0
-}); */
+/*	prev: '#prevchambres',
+	next: '#nextchambres', */
+	timeout: 10000
+});
 
 $("#scrollableruban img").tooltip();
 

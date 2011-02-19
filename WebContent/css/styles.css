@@ -648,3 +648,10 @@ form#reservation .submit input {
 		src='img/x.png', sizingMethod='scale'
 	);
 }
+#ombrecentrale {
+	height: 760px;
+	width: 14px;
+	position: absolute;
+	background-image: url('../img/ombrecentral.png');
+	z-index: 1;
+}

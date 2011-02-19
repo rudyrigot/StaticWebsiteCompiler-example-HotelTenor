@@ -1,3 +1,19 @@
+/* Vidage/re-remplissage de l'input date */
+
+function vider(input_text, msg){
+	if (input_text.val() == msg) {
+		input_text.val('');
+	}
+}
+function remplir(input_text, msg){
+	if (input_text.val()=='' || input_text.val()==msg){
+		input_text.val(msg);
+	}
+}
+
+$('.date input').focus(function(){vider($(this), 'JJ/MM/AAAA');});
+$('.date input').blur(function(){remplir($(this), 'JJ/MM/AAAA');});
+
 /* Ruban */
 function onAfterRuban(curr, next, opts) {
 	var index = opts.currSlide;

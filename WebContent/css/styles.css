@@ -5,14 +5,21 @@ a, a:hover {
 a:hover {
 	text-decoration: underline;
 }
+html {
+	width: 100%;
+	height: 100%;
+}
 body {
+	width: 100%;
+	height: 100%;
 	background-color: #b1a684;
 	background-image: url('../img/bggradient.png');
 	background-repeat: repeat-x;
 	color: #595a5b;
 }
 .container {
-	height: 760px;
+	height: 100%;
+	background-color: #fcfcfa;
 }
 
 div#left_bg {
@@ -653,11 +660,13 @@ form#reservation .submit input {
 	);
 }
 #ombrecentrale {
-	height: 760px;
+	height: 100%;
 	width: 14px;
-	position: absolute;
 	background-image: url('../img/ombrecentral.png');
 	z-index: 1;
+	float: left;
+	margin-left: -710px;
+	min-height: 760px;
 }
 .ie6 #ombrecentrale {
 	display: none;

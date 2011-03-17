@@ -44,8 +44,8 @@ if ($('#scrollablechambres').length) {
 	$('#scrollablechambres').cycle({
 		fx: 'scrollLeft',
 		pause: 1,
-	/*	prev: '#prevchambres',
-		next: '#nextchambres', */
+		prev: '#prevchambres',
+		next: '#nextchambres',
 		timeout: 10000
 	});
 }

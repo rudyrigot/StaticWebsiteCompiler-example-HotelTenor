@@ -520,19 +520,19 @@ form#reservation .submit input {
 	height: 174px;
 	width: 710px;
 }
-#content .carrouselchambres .prevchambres,
-#content .carrouselchambres .nextchambres {
+#content .carrouselchambres #prevchambres,
+#content .carrouselchambres #nextchambres {
 	width: 25px;
 	height: 25px;
 	display: block;
 	position: absolute;
 	z-index: 4;
 }
-#content .carrouselchambres .prevchambres {
-	margin: 57px 0 0 16px;
+#content .carrouselchambres #prevchambres {
+	margin: 57px 0 0 18px;
 	background-image: url('../img/chambres/carrouselleft.png');
 }
-#content .carrouselchambres .nextchambres {
+#content .carrouselchambres #nextchambres {
 	margin: 57px 0 0 660px;
 	background-image: url('../img/chambres/carrouselright.png');
 }

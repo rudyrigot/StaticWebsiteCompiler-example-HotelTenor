@@ -17,34 +17,20 @@ body {
 	background-repeat: repeat-x;
 	color: #595a5b;
 }
+.bgcontainer {
+	height: 100%;
+	width: 100%;
+	background-image:url('../img/bglogo.png');
+	background-repeat: no-repeat;
+	background-position: center 128px; 
+}
+.ie6 .bgcontainer {
+	background: none;
+}
 .container {
 	height: 100%;
 	background-color: #fcfcfa;
 }
-
-div#left_bg {
-	position:absolute;
-	background-image:url('../img/bgleft.png');
-	margin-top:128px;
-	margin-left:-186px;
-	width:186px;
-	height:404px;
-}
-.ie div#left_bg {
-	margin-left:-1136px
-}
-div#right_bg {
-	position:absolute;
-	background-image:url('../img/bgright.png');
-	width:183px;
-	height:404px;
-	margin-left:950px;
-	margin-top:133px;
-}
-.ie div#right_bg {
-	margin-left:0;
-}
-
 #left_col {
 	background-color: #fcfcfa;
 	height: 760px;

@@ -399,10 +399,11 @@ form#reservation .submit input {
 	height: 28px;
 	background-color: #6b6254;
 }
-#ruban #scrollableruban a img {
+#ruban #scrollableruban img {
 	margin-left: 22px;
+	cursor: pointer;
 }
-#ruban #scrollableruban a.plus3 img {
+#ruban #scrollableruban img.plus3 {
 	margin-left: 19px;
 }
 .tooltip {

@@ -11,7 +11,7 @@ html {
 }
 body {
 	width: 100%;
-	height: 100%;
+	height: 760px;
 	background-color: #b1a684;
 	background-image: url('../img/bggradient.png');
 	background-repeat: repeat-x;
@@ -647,13 +647,12 @@ form#reservation .submit input {
 	);
 }
 #ombrecentrale {
-	height: 100%;
+	height: 760px;
 	width: 14px;
 	background-image: url('../img/ombrecentral.png');
 	z-index: 1;
 	float: left;
 	margin-left: -710px;
-	min-height: 760px;
 }
 .ie6 #ombrecentrale {
 	display: none;

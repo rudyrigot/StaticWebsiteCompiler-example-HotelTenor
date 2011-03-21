@@ -63,7 +63,7 @@ if ($('#carrouselhome').length) {
 		prev: '#prevhome',
 		next: '#nexthome',
 		after: onAfterHome,
-		timeout: 5000
+		timeout: 15000
 	});
 }
 

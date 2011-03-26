@@ -657,3 +657,6 @@ form#reservation .submit input {
 .ie6 #ombrecentrale {
 	display: none;
 }
+.ui-datepicker {
+	z-index: 10 !important;
+}

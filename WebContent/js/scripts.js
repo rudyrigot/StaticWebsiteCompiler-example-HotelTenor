@@ -99,7 +99,7 @@ function itineraireFromHere() {
 	// Try W3C Geolocation (Preferred)
 	if(navigator.geolocation) {
 		browserSupportFlag = true;
-		navigator.geolocation.getCurrentPosition(function(position) {
+		navigator.geolocation.getCurrentPosition(function(po class="goModal"sition) {
 			initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
 			itineraire(initialLocation, google.maps.DirectionsTravelMode.DRIVING);
 		}, function() {

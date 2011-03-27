@@ -389,13 +389,13 @@ form#reservation .submit input {
 #ruban #scrollableruban {
 	float: left;
 	margin-top: 11px;
-	width: 567px;
+	width: 570px;
 	height: 28px;
 	background-color: #6b6254;
 	display: inline
 }
 #ruban #scrollableruban .scrollableruban {
-	width: 567px;
+	width: 570px;
 	height: 28px;
 	background-color: #6b6254;
 }

@@ -149,7 +149,7 @@ $('#lyon').click(function(){itineraire('Lyon', google.maps.DirectionsTravelMode.
 $('#clermont').click(function(){itineraire('Clermont-Ferrand', google.maps.DirectionsTravelMode.DRIVING)});
 $('#here').click(function(){itineraireFromHere();});
 
-$('.scrollableruban a').mouseover(function(){ onclick="_gaq.push(['_trackEvent', 'Ruban', 'Une icone']);"});
+$('.scrollableruban a').mouseover(function(){_gaq.push(['_trackEvent', 'Ruban', 'Une icone']);});
 
 /* Boites modales des visites virtuelles */
 if ($("#goModalRoom").length) {

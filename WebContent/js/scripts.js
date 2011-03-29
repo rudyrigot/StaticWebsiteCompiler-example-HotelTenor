@@ -151,6 +151,20 @@ $('#here').click(function(){itineraireFromHere();});
 
 $('.scrollableruban a').mouseover(function(){ onclick="_gaq.push(['_trackEvent', 'Ruban', 'Une icone']);"});
 
+/* Boites modales des visites virtuelles */
+if ($("#goModalRoom").length) {
+	$("#goModalRoom").click(function(){
+		$.modal('<iframe src="./sphere/jvchambre.html" width="660" height="300" />');
+		return false;
+	});
+}
+if ($("#goModalBreakfast").length) {
+	$("#goModalBreakfast").click(function(){
+		$.modal('<iframe src="./sphere/jvsalle.html" width="660" height="300" />');
+		return false;
+	});
+}
+
 /* ouverture de la modal des mentions legales */
 $('#mentions').click(function(){$.modal(
 		'<h2>Mentions l&eacute;gales</h2>'+

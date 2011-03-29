@@ -90,7 +90,7 @@ a {
 #formulaire {
 	margin-top: 32px;
 	width: 183px;
-	height: 218px;
+	height: 158px;
 	margin-left: -10px;
 }
 #formulaire.bordered {
@@ -100,7 +100,7 @@ a {
 
 form#reservation {
 	width: 171px;
-	height: 216px;
+	height: 156px;
 	padding-left: 10px;
 	border: 1px solid #dadad9;
 	background-color: white;
@@ -142,40 +142,6 @@ form#reservation .date a {
 	display: inline;
 	float: left;
 }
-form#reservation .selectlabels {
-	height: 22px;
-	margin-top: 17px;
-}
-form#reservation .selectlabels div {
-	float: left;
-	overflow: hidden;
-}
-form#reservation .selectlabels div#nightslabel {
-	width: 55px;
-}
-form#reservation .selectlabels div#adultslabel {
-	width: 55px;
-}
-form#reservation .selectlabels div#childrenlabel {
-	width: 60px;
-}
-form#reservation .selects {
-	height: 22px;
-}
-form#reservation .selects select {
-	float: left;
-	width: 42px;
-	height: 22px;
-	background-image: url('../img/selectbackground.png');
-	margin: 0 15px 0 0;
-	border: 1px solid #c6c6c6;
-	padding: 0;
-	display: inline;
-}
-form#reservation .selects .last {
-	margin: 0;
-	text-align: center;
-}
 form#reservation .submit {
 	margin-top: 15px;
 }
@@ -192,7 +158,7 @@ form#reservation .submit input {
 }
 
 #services_strip_title {
-	margin-top: 36px;
+	margin-top: 96px;
 	margin-left: -30px;
 	height: 52px;
 	width: 240px;

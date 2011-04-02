@@ -472,6 +472,9 @@ form#reservation .submit input {
 	height: 380px;
 	background-color: #5e4d43;
 }
+#content .sallestophalf {
+	background-color: #6f765e;
+}
 #content .bottomhalf {
 	width: 710px;
 	height: 304px;
@@ -484,6 +487,9 @@ form#reservation .submit input {
 	height: 380px;
 	float: right;
 	color: #c9c5aa;
+}
+#content .sallestophalf .righttext {
+	color: #e6e2c3;
 }
 .ie6 #content .tophalf .righttext {
 	width:327px;
@@ -637,7 +643,7 @@ form#reservation .submit input {
 	padding: 22px 27px 0;
 	width: 326px;
 	height: 282px;
-	background-color: #655a70;
+	background-color: #616362;
 	color: white;
 }
 #content .bottomhalf #fichecontact h3 {

@@ -511,13 +511,14 @@ form#reservation .submit input {
 }
 #content .bottomhalf .tarifs {
 	width: 710px;
-	height: 100px;
+	height: 120px;
 }
 #content .bottomhalf .tarifs h3 {
-	margin-top: 25px;
+	margin-top: 27px;
 	height: 75px;
 	margin-left: 20px;
-	width: 120px;
+	margin-right: 85px;
+	width: 80px;
 	text-align: center;
 	background-image: url('../img/chambres/tarifseparateur.png');
 	background-position: center 32px;
@@ -547,13 +548,22 @@ form#reservation .submit input {
 #content .bottomhalf .tarifs ul li .tarif {
 	float: right;
 	padding-right: 30px;
+	padding-left: 15px;
 	background-color: #f5f4f3;
-	width: 95px;
 	text-align: right;
 	display: inline;
 }
 #content .bottomhalf .tarifs ul li .intitule {
 	background-color: #f5f4f3;
+}
+#content .bottomhalf .tarifs ul li.devis {
+	margin-left: 15px;
+	margin-top: 2px;
+	padding: 0 0 0 20px;
+	background-image: url('../img/home/list-arrow.png');
+	background-repeat: no-repeat;
+	background-position: left 4px;
+	font-style: italic;
 }
 #content .bottomhalf .tarifs img {
 	margin: 32px 0 0;
@@ -561,7 +571,7 @@ form#reservation .submit input {
 	display: inline;
 }
 #content .carrouselchambres {
-	height: 174px;
+	height: 150px;
 	width: 710px;
 }
 #content .carrouselchambres #prevchambres,
@@ -582,11 +592,11 @@ form#reservation .submit input {
 }
 #content .carrouselchambres #scrollablechambres {
 	width: 710px;
-	height:174px;
+	height:150px;
 }
 #content .carrouselchambres #scrollablechambres .scrollablechambres {
 	width: 710px;
-	height:174px;
+	height:150px;
 }
 #content .carrouselchambres #scrollablechambres .scrollablechambres .imageframe {
 	float: left;

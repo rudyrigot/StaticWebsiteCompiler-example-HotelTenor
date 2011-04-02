@@ -33,6 +33,21 @@ $('form#reservation').submit(function(){
 	}
 });
 
+/* Tooltip ruban */
+if ($('div.tooltip').length) {
+	$('div.tooltip').each(function(){
+		$(this).css('margin-top', (668-$(this).height())+'px');
+	});
+}
+if ($('#scrollableruban img').length) {
+	$('#scrollableruban img').mouseover(function(){
+		$('#tooltip_'+$(this).attr('id')).css('display', 'block');
+	});
+	$('#scrollableruban img').mouseout(function(){
+		$('#tooltip_'+$(this).attr('id')).css('display', 'none');
+	});
+}
+
 /* Ruban */
 function onAfterRuban(curr, next, opts) {
 	var index = opts.currSlide;
@@ -68,8 +83,6 @@ if ($('#scrollablechambres').length) {
 		timeout: 10000
 	});
 }
-
-$("#scrollableruban img").tooltip();
 
 function onAfterHome(curr, next, opts) {
 	$('.texteimg').fadeOut();

@@ -18,7 +18,7 @@ body {
 	color: #595a5b;
 }
 .bgcontainer {
-	height: 100%;
+	height: 760px;
 	width: 100%;
 	background-image:url('../img/bglogo.png');
 	background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
 	background: none;
 }
 .container {
-	height: 100%;
+	height: 760px;
 	background-color: #fcfcfa;
 }
 #left_col {
@@ -357,13 +357,19 @@ form#reservation .submit input {
 	margin-top: 11px;
 	width: 570px;
 	height: 28px;
-	background-color: #6b6254;
-	display: inline
+	display: inline;
+}
+.ie #ruban #scrollableruban {
+	background-image: url('../img/ribbon/background_gradient.png');
+	background-repeat: repeat-x;
 }
 #ruban #scrollableruban .scrollableruban {
 	width: 570px;
 	height: 28px;
-	background-color: #6b6254;
+}
+.ie #ruban #scrollableruban .scrollableruban {
+	background-image: url('../img/ribbon/background_gradient.png');
+	background-repeat: repeat-x;
 }
 #ruban #scrollableruban img {
 	margin-left: 22px;
@@ -373,13 +379,92 @@ form#reservation .submit input {
 	margin-left: 19px;
 }
 .tooltip {
+	width: 155px;
+	z-index: 5;
+	position: absolute;
+	display: none;
+}
+.tooltip div {
 	width: 133px;
-	height: 89px;
-	background-image: url('../img/tooltip.png');
-	background-repeat: no-repeat;
+	background-image: url('../img/ribbon/tooltip_gradient.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-color: #FFFFFF;
 	padding: 10px;
 	text-align: center;
-	z-index: 5;
+	border: 1px solid #935f42;
+	border-radius: 8px;
+}
+.tooltip span {
+	display: block;
+	width: 155px;
+	height: 15px;
+	background-image: url('../img/ribbon/tooltip_arrow.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: -5px;
+}
+
+.tooltip_1 {
+	margin-left: 251px;
+}
+.tooltip_2 {
+	margin-left: 312px;
+}
+.tooltip_3 {
+	margin-left: 369px;
+}
+.tooltip_4 {
+	margin-left: 426px;
+}
+.tooltip_5 {
+	margin-left: 483px;
+}
+.tooltip_6 {
+	margin-left: 540px;
+}
+.tooltip_7 {
+	margin-left: 597px;
+}
+.tooltip_8 {
+	margin-left: 656px;
+}
+.tooltip_9 {
+	margin-left: 711px;
+}
+.tooltip_10 {
+	margin-left: 766px;
+}
+
+.ie .tooltip_1 {
+	margin-left: -698px;
+}
+.ie .tooltip_2 {
+	margin-left: -637px;
+}
+.ie .tooltip_3 {
+	margin-left: -580px;
+}
+.ie .tooltip_4 {
+	margin-left: -523px;
+}
+.ie .tooltip_5 {
+	margin-left: -466px;
+}
+.ie .tooltip_6 {
+	margin-left: -409px;
+}
+.ie .tooltip_7 {
+	margin-left: -352px;
+}
+.ie .tooltip_8 {
+	margin-left: -293px;
+}
+.ie .tooltip_9 {
+	margin-left: -238px;
+}
+.ie .tooltip_10 {
+	margin-left: -183px;
 }
 
 #content .tophalf {

@@ -503,6 +503,9 @@ form#reservation .submit input {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
+#content .sallestophalf .righttext h2 {
+	background-image: url('../img/salles/titreseparateur.png');
+}
 #content .tophalf .righttext p {
 	margin: 0 30px 20px 30px;
 }

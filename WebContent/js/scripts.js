@@ -82,6 +82,13 @@ if ($('#scrollablechambres').length) {
 		next: '#nextchambres',
 		timeout: 10000
 	});
+	
+	$('#scrollablechambres a').lightBox({
+		imageBtnClose: 'css/images/lightbox-btn-close.gif',
+		imageLoading: 'css/images/lightbox-ico-loading.gif',
+		imageBtnPrev: 'css/images/lightbox-btn-prev.gif',
+		imageBtnNext: 'css/images/lightbox-btn-next.gif'
+	});
 }
 
 function onAfterHome(curr, next, opts) {

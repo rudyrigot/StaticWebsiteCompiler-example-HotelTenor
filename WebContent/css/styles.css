@@ -191,19 +191,15 @@ form#reservation .submit input {
 	height: 124px;
 	position: absolute;
 	background-image: url('../img/home/cadretexte.png');
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 	top: 336px;
 	color: white;
 	z-index: 4;
 }
-.ie6 #content #carrouseltext {
-	background: none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/hoteltenor/img/home/cadretexteIE.png',sizingMethod='crop');
-}
 #content #carrouseltext #carrouseltexttitle {
 	padding-left: 50px;
 	margin-top: -4px;
-	padding-top: 20px;
+	padding-top: 15px;
 	background-image: url('../img/home/guillemet.png');
 	background-repeat: no-repeat;
 	background-position: 17px top;
@@ -221,6 +217,7 @@ form#reservation .submit input {
 	margin:0;
 	padding:0;
 	width: 470px;
+	text-shadow: 1px 1px 3px #777;
 }
 .ie6 #content #carrouseltext #carrouseltexttitle h2 {
 	width: 460px;

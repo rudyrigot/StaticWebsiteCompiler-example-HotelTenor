@@ -15,23 +15,6 @@ function remplir(input_text, msg){
 $('.date input').focus(function(){vider($(this), 'JJ/MM/AAAA');});
 $('.date input').blur(function(){remplir($(this), 'JJ/MM/AAAA');});
 
-$('form#reservation').submit(function(){
-	var arrival = $('#arrival').val();
-	var departure = $('#departure').val();
-	if(arrival.substring(2,3)=='/' && arrival.substring(5,6)=='/' && departure.substring(2,3)=='/' && departure.substring(5,6)=='/') {
-		var arrivalDay, arrivalMonth, departureDay, departureMonth;
-		/* arrival */
-		if (arrival.substring(0,1)=='0') { arrivalDay=arrival.substring(1,2); } else { arrivalDay=arrival.substring(0,2); }
-		if (arrival.substring(3,4)=='0') { arrivalMonth=arrival.substring(4,5); } else { arrivalMonth=arrival.substring(3,5); }
-		$('#checkin_monthday').val(arrivalDay);
-		$('#checkin_year_month').val(arrival.substring(6,10)+'-'+arrivalMonth);
-		/* departure */
-		if (departure.substring(0,1)=='0') { departureDay=departure.substring(1,2); } else { departureDay=departure.substring(0,2); }
-		if (departure.substring(3,4)=='0') { departureMonth=departure.substring(4,5); } else { departureMonth=departure.substring(3,5); }
-		$('#checkout_monthday').val(departureDay);
-		$('#checkout_year_month').val(departure.substring(6,10)+'-'+departureMonth);
-	}
-});
 
 /* Tooltip ruban */
 if ($('div.tooltip').length) {

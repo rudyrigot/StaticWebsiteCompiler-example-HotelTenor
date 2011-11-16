@@ -82,28 +82,22 @@
  
  <div id="formulaire" class="bordered" onsubmit="_gaq.push(['_trackEvent', 'Formulaire reservation', 'submit']);">
  
- <form id="reservation" action="http://www.booking.com/hotel/fr/hoteltenor.html" method="get">
+ <form id="reservation" action="http://hotel.reservit.com/reservit/avail-info.php" method="get">
  <div class="intitule">Book now:</div>
  
  <div class="date">
  <label>Arrival:</label>
- <input type="text" name="arrival" id="arrival" class="dateinput" value="JJ/MM/AAAA"/>
+ <input type="text" id="arrival" class="dateinput" value="JJ/MM/AAAA"/>
  </div>
  
  <div class="date last">
  <label>Departure:</label>
- <input type="text" name="departure" id="departure" class="dateinput" value="JJ/MM/AAAA"/>
+ <input type="text" id="departure" class="dateinput" value="JJ/MM/AAAA"/>
  </div>
  
- <input type="hidden" name="tab" value="1" />
- <input type="hidden" name="error_url" value="%2Fhotel%2Ffr%2Fhoteltenor.html%3Faid%3D330843%3Bsid%3Db46eb4070e162596ee91e355206ece76%3B" />
- <input type="hidden" name="do_availability_check" value="on" />
- <input type="hidden" name="aid" value="330843" />
- <input type="hidden" name="sid" value="b46eb4070e162596ee91e355206ece76" />
- <input type="hidden" id="checkin_monthday" name="checkin_monthday" value="" />
- <input type="hidden" id="checkin_year_month" name="checkin_year_month" value="" />
- <input type="hidden" id="checkout_monthday" name="checkout_monthday" value="" />
- <input type="hidden" id="checkout_year_month" name="checkout_year_month" value="" />
+ <input type="hidden" name="lang" value="FR" />
+ <input type="hidden" name="action" value="resa" />
+ <input type="hidden" name="hotelid" value="5246" />
  
  <div class="submit">
  <input type="submit" value="Search"/>

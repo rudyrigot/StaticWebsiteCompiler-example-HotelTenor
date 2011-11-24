@@ -41,6 +41,7 @@ form#reservation .selects select {
 	text-transform: uppercase;
 	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
 	font-size: 14px;
+	line-height: 1.2em;
 }
 #content #blocsliens p,
 #content #blocsliens ul li {

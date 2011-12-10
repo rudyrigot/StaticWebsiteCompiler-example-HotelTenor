@@ -13,11 +13,11 @@ form#reservation .intitule {
 	font-family: MuseoSlab-500, 'Droid Sans', arial, serif;
 	color: #494a4b;
 }
-form#reservation .date label {
+form#reservation label {
 	font-weight: normal;
 	color: #7c7b79;
 }
-form#reservation .date input {
+form#reservation input {
 	font-family: 'Droid Sans', arial, serif;
 	color: #8c8f90;
 	font-size: 11px;

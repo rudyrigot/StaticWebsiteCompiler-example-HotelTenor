@@ -44,6 +44,7 @@
  <!--[if IE 7]> <body onload="initialize();" class="ie ie7"> <![endif]-->
  <!--[if IE 6]> <body onload="initialize();" class="ie ie6"> <![endif]-->
  <!--[if !IE]>--> <body onload="initialize();" class="not-ie"><!--<![endif]-->
+ <script type="text/javascript" src="js/init.js"></script>
  <div class="bgcontainer">
  <div class="container">
 
@@ -82,7 +83,7 @@
  
  <div id="formulaire" class="bordered" onsubmit="_gaq.push(['_trackEvent', 'Formulaire reservation', 'submit']);">
  
- <form id="reservation" action="http://hotel.reservit.com/reservit/avail-info.php" method="get">
+ <form id="reservation" action="http://hotel.reservit.com/reservit/reserhotel.php" method="get">
  <div class="intitule">Book now:</div>
  
  <div class="date">
@@ -95,8 +96,18 @@
  <input type="text" id="departure" class="dateinput" value="JJ/MM/AAAA"/>
  </div>
  
+ <div class="textfield" id="nbNuits">
+ <label># adults:</label>
+ <input type="text" name="nbadt" value="1"/>
+ </div>
+ 
+ <input type="hidden" name="fday" id="fday" value="" />
+ <input type="hidden" name="fmonth" id="fmonth" value="" />
+ <input type="hidden" name="fyear" id="fyear" value="" />
+ <input type="hidden" name="tday" id="tday" value="" />
+ <input type="hidden" name="tmonth" id="tmonth" value="" />
+ <input type="hidden" name="tyear" id="tyear" value="" />
  <input type="hidden" name="lang" value="FR" />
- <input type="hidden" name="action" value="resa" />
  <input type="hidden" name="hotelid" value="5246" />
  
  <div class="submit">

@@ -90,8 +90,11 @@ a {
 #formulaire {
 	margin-top: 32px;
 	width: 183px;
-	height: 158px;
+	height: 80px;
 	margin-left: -10px;
+}
+.js #formulaire {
+	height: 180px;
 }
 #formulaire.bordered {
 	padding: 8px;
@@ -100,14 +103,23 @@ a {
 
 form#reservation {
 	width: 171px;
-	height: 156px;
+	height: 78px;
 	padding-left: 10px;
 	border: 1px solid #dadad9;
 	background-color: white;
 }
+.js form#reservation {
+	height: 178px;
+}
 form#reservation .intitule {
 	height: 33px;
 	padding-top: 10px;
+}
+form#reservation .date, form#reservation #nbNuits {
+	display: none;
+}
+.js form#reservation .date, .js form#reservation #nbNuits {
+	display: block;
 }
 form#reservation .date {
 	height: 22px;
@@ -122,18 +134,23 @@ form#reservation .date label {
 	float: left;
 	overflow: hidden;
 }
-form#reservation .date input {
+form#reservation input {
 	width: 85px;
 	height: 20px;
 	padding: 1px 0;
 	text-align: center;
-	background-image: url('../img/inputtextbackground.png');
 	border: 0;
 	margin: 0;
 	display: inline;
 	float: left;
+	border: 1px solid #8c8f90;
 }
-.ie form#reservation .date input {
+form#reservation .textfield input {
+	width: 60px;
+	text-align: right;
+	padding-right: 5px;
+}
+.ie form#reservation input {
 	padding-top: 5px !important;
 	height: 16px;
 }
@@ -142,8 +159,15 @@ form#reservation .date a {
 	display: inline;
 	float: left;
 }
-form#reservation .submit {
-	margin-top: 15px;
+form#reservation #nbNuits label {
+	width: 70px;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+form#reservation #nbNuits {
+	margin-bottom: 10px;
+	height: 22px;
 }
 form#reservation .submit input {
 	padding: 0;
@@ -158,12 +182,15 @@ form#reservation .submit input {
 }
 
 #services_strip_title {
-	margin-top: 96px;
+	margin-top: 174px;
 	margin-left: -30px;
 	height: 52px;
 	width: 240px;
 	padding-top: 10px;
 	background-image: url('../img/services_strip_title.png')
+}
+.js #services_strip_title {
+	margin-top: 74px;
 }
 #services_strip_title span {
 	color: white;

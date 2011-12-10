@@ -15,6 +15,15 @@ function remplir(input_text, msg){
 $('.date input').focus(function(){vider($(this), 'JJ/MM/AAAA');});
 $('.date input').blur(function(){remplir($(this), 'JJ/MM/AAAA');});
 
+$('#reservation').submit(function(){
+	$('#fday').val($('#arrival').val().substring(0,2));
+	$('#fmonth').val($('#arrival').val().substring(3,5));
+	$('#fyear').val($('#arrival').val().substring(6));
+	$('#tday').val($('#departure').val().substring(0,2));
+	$('#tmonth').val($('#departure').val().substring(3,5));
+	$('#tyear').val($('#departure').val().substring(6));
+});
+
 
 /* Tooltip ruban */
 if ($('div.tooltip').length) {

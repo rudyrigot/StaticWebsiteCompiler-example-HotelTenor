@@ -758,3 +758,17 @@ form#reservation .submit input {
 .ui-datepicker {
 	z-index: 10 !important;
 }
+
+#social_networks {
+	margin-left: -30px;
+	height: 52px;
+	width: 240px;
+	font-size: 11px;
+}
+#social_networks a {
+	display: block;
+	padding: 20px 0 0 57px;
+	background: url('../img/facebook-logo.png') no-repeat 22px 10px;
+	height: 20px;
+	line-height:1em;
+}
